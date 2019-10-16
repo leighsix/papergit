@@ -1,0 +1,77 @@
+This is BibTeX, Version 0.99d (TeX Live 2018/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: elsarticle-template.aux
+The style file: elsarticle-num.bst
+Database file #1: mybibfile.bib
+I was expecting a `,' or a `}'---line 269 of file mybibfile.bib
+ :  
+ :  publisher = "Springer Nature, DOI:1007/978-3-319-50038-6"
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "namkhanhvu2017" isn't style-file defined
+--line 319 of file mybibfile.bib
+Warning--entry type for "kimsangwoo2012" isn't style-file defined
+--line 605 of file mybibfile.bib
+Warning--I didn't find a database entry for "mikko2013"
+Warning--I didn't find a database entry for "huberman2004"
+Warning--I didn't find a database entry for "amato2017"
+Warning--I didn't find a database entry for "quattrociocchi2014"
+Warning--I didn't find a database entry for "haibo2017"
+Warning--I didn't find a database entry for "hua2014"
+Warning--I didn't find a database entry for "redner2017"
+Warning--I didn't find a database entry for "smyrnakis2019"
+Warning--I didn't find a database entry for "masuda2015"
+Warning--I didn't find a database entry for "shenyu2018"
+Warning--I didn't find a database entry for "zhou2018"
+Warning--I didn't find a database entry for "velasquez2018"
+Warning--empty booktitle in domenico2013
+Warning--empty pages in domenico2013
+Warning--empty booktitle in tomasini2015
+Warning--empty pages in tomasini2015
+Warning--empty booktitle in newman2010
+Warning--empty pages in newman2010
+Warning--empty pages in alvarez2016
+Warning--empty booktitle in vazquez2010
+Warning--empty pages in vazquez2010
+You've used 18 entries,
+            2937 wiz_defined-function locations,
+            783 strings with 8139 characters,
+and the built_in function-call counts, 4660 in all, are:
+= -- 385
+> -- 177
+< -- 0
++ -- 71
+- -- 53
+* -- 280
+:= -- 661
+add.period$ -- 20
+call.type$ -- 18
+change.case$ -- 17
+chr.to.int$ -- 0
+cite$ -- 27
+duplicate$ -- 144
+empty$ -- 571
+format.name$ -- 64
+if$ -- 1222
+int.to.chr$ -- 0
+int.to.str$ -- 18
+missing$ -- 17
+newline$ -- 64
+num.names$ -- 18
+pop$ -- 132
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 322
+stack$ -- 0
+substring$ -- 161
+swap$ -- 13
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 9
+while$ -- 27
+width$ -- 20
+write$ -- 148
+(There was 1 error message)

@@ -1,0 +1,195 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{bianconi2018}
+G.~Bianconi, \href{https://books.google.co.kr/books?id=6v5cDwAAQBAJ}{Multilayer
+  Networks: Structure and Function}, Oxford University Press, 2018.
+\newline\urlprefix\url{https://books.google.co.kr/books?id=6v5cDwAAQBAJ}
+
+\bibitem{domenico2013}
+M.~De~Domenico, A.~Sol\'e-Ribalta, E.~Cozzo, M.~Kivel\"a, Y.~Moreno, M.~A.
+  Porter, S.~G\'omez, A.~Arenas,
+  \href{https://link.aps.org/doi/10.1103/PhysRevX.3.041022}{Mathematical
+  formulation of multilayer networks}, Phys. Rev. X 3 (2013) 041022.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevX.3.041022}
+  {\path{doi:10.1103/PhysRevX.3.041022}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevX.3.041022}
+
+\bibitem{tomasini2015}
+M.~Tomasini, An introduction to multilayer networks, 2015.
+\newblock \href {http://dx.doi.org/10.13140/RG.2.2.16830.18243}
+  {\path{doi:10.13140/RG.2.2.16830.18243}}.
+
+\bibitem{kimsangwoo2012}
+K.~Sangwoo, Structure and dynamics of complex networks (2012).
+
+\bibitem{newman2010}
+M.~J. Newman, Networks: An introduction, 2010.
+
+\bibitem{boccaletti2014}
+S.~Boccaletti, G.~Bianconi, R.~Criado, C.~I.~D. Genio,
+  J.~G{\'o}mez-Garde{\~n}es, M.~Romance, I.~Sendi{\~n}a-Nadal, Z.~Wang,
+  M.~Zanin, The structure and dynamics of multilayer networks, CoRR
+  abs/1407.0742.
+
+\bibitem{mikko2014}
+M.~Kivel{\"a}, A.~Arenas, M.~Barthelemy, J.~P. Gleeson, Y.~Moreno, M.~A.
+  Porter, Multilayer networks, J. Complex Networks 2 (2014) 203--271.
+
+\bibitem{fangwu2004}
+F.~Wu, B.~A. Huberman, Social structure and opinion formation, 2004.
+
+\bibitem{amato2017}
+R.~Amato, N.~Kouvaris, M.~San~Miguel, A.~Diaz-Guilera, Opinion competition
+  dynamics on multiplex networks, New Journal of Physics 19 (2017) 123019.
+\newblock \href {http://dx.doi.org/10.1088/1367-2630/aa936a}
+  {\path{doi:10.1088/1367-2630/aa936a}}.
+
+\bibitem{quattrociocchi2014}
+W.~Quattrociocchi, G.~Caldarelli, A.~Scala, Opinion dynamics on interacting
+  networks: Media competition and social influence, Scientific reports 4.
+\newblock \href {http://dx.doi.org/10.1038/srep04938}
+  {\path{doi:10.1038/srep04938}}.
+
+\bibitem{haibo2017}
+H.~Hu,
+  \href{https://royalsocietypublishing.org/doi/abs/10.1098/rsos.171160}{Competing
+  opinion diffusion on social networks}, Royal Society Open Science 4~(11)
+  (2017) 171160.
+\newblock \href
+  {http://arxiv.org/abs/https://royalsocietypublishing.org/doi/pdf/10.1098/rsos.171160}
+  {\path{arXiv:https://royalsocietypublishing.org/doi/pdf/10.1098/rsos.171160}},
+  \href {http://dx.doi.org/10.1098/rsos.171160}
+  {\path{doi:10.1098/rsos.171160}}.
+\newline\urlprefix\url{https://royalsocietypublishing.org/doi/abs/10.1098/rsos.171160}
+
+\bibitem{hua2014}
+J.~Hua, L.~Wang, X.~Wang, An information diffusion model based on individual
+  characteristics, 2014, pp. 2866--2871.
+\newblock \href {http://dx.doi.org/10.1109/ChiCC.2014.6897094}
+  {\path{doi:10.1109/ChiCC.2014.6897094}}.
+
+\bibitem{redner2017}
+S.~{Redner}, {Dynamics of Voter Models on Simple and Complex Networks}, arXiv
+  e-prints (2017) arXiv:1705.02249\href {http://arxiv.org/abs/1705.02249}
+  {\path{arXiv:1705.02249}}.
+
+\bibitem{smyrnakis2019}
+M.~Smyrnakis, D.~Bauso, T.~Hamidou,
+  \href{https://doi.org/10.1371/journal.pone.0209212}{An evolutionary game
+  perspective on quantised consensus in opinion dynamics}, PLOS ONE 14~(1)
+  (2019) 1--17.
+\newblock \href {http://dx.doi.org/10.1371/journal.pone.0209212}
+  {\path{doi:10.1371/journal.pone.0209212}}.
+\newline\urlprefix\url{https://doi.org/10.1371/journal.pone.0209212}
+
+\bibitem{danziger2019}
+M.~M. Danziger, I.~Bonamassa, S.~Boccaletti, Havlin, Shlomo, Dynamic
+  interdependence and competition in multilayer networks, Nature Physics 15
+  (2019) 178--185.
+
+\bibitem{namkhanhvu2017}
+N.~K. Vu, Robustness of interconnected complex networks with directed
+  dependency (2017).
+
+\bibitem{laguna2004}
+M.~F.~L. et~al, The dynamics of opinion in hierarchical organizations, Physica
+  A: Statistical Mechanics and its Applications 351 (2005) 580--592.
+
+\bibitem{masuda2014}
+N.~Masuda, \href{http://arxiv.org/abs/1412.2170}{Opinion control in complex
+  networks}, CoRR abs/1412.2170.
+\newblock \href {http://arxiv.org/abs/1412.2170} {\path{arXiv:1412.2170}}.
+\newline\urlprefix\url{http://arxiv.org/abs/1412.2170}
+
+\bibitem{zuev2012}
+Z.~A. S, Fedyanin, Models of opinion control for agents in social networks,
+  Automation and Remote Control 73 (2012) 1753–1764.
+
+\bibitem{shenyu2018}
+S.~Zhou, S.~Shi, L.~Wang, Immunizations of interacting diseases, 2018, pp.
+  9686--9691.
+\newblock \href {http://dx.doi.org/10.23919/ChiCC.2018.8482798}
+  {\path{doi:10.23919/ChiCC.2018.8482798}}.
+
+\bibitem{zhou2018}
+S.~Zhou, S.~Xu, L.~Wang, Z.~Liu, G.~Chen, X.~Wang,
+  \href{https://link.aps.org/doi/10.1103/PhysRevE.98.012303}{Propagation of
+  interacting diseases on multilayer networks}, Phys. Rev. E 98 (2018) 012303.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevE.98.012303}
+  {\path{doi:10.1103/PhysRevE.98.012303}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevE.98.012303}
+
+\bibitem{alvarez2016}
+L.~G. Alvarez-Zuzek, C.~E.~L. Rocca, F.~Vazquez, L.~A. Braunstein, Interacting
+  social processes on interconnected networks, in: PloS one, 2016.
+
+\bibitem{gomez2015}
+J.~G{\'o}mez-Garde{\~n}es, M.~D. Domenico, G.~Guti{\'e}rrez, A.~Arenas,
+  S.~G{\'o}mez, Layer-layer competition in multiplex complex networks,
+  Philosophical transactions. Series A, Mathematical, physical, and engineering
+  sciences 373-2056.
+
+\bibitem{diep2017}
+H.~T. Diep(LPTM), M.~Kaufman, S.~Kaufman, Dynamics of two-group conflicts: A
+  statistical physics model, Physica A: Statistical Mechanics and its
+  Applications, Elsevier 469 (2017) 183 -- 199.
+
+\bibitem{rocca2014}
+C.~E.~L. Rocca, L.~A. Braunstein, F.~Vazquez, The influence of persuasion in
+  opinion formation and polarization, CoRR abs/1403.3011.
+
+\bibitem{velasquez2018}
+F.~Velásquez-Rojas, F.~Vazquez, Opinion dynamics in two dimensions: Domain
+  coarsening leads to stable bi-polarization and anomalous scaling exponents,
+  Journal of Statistical Mechanics: Theory and Experiment 2018.
+\newblock \href {http://dx.doi.org/10.1088/1742-5468/aab1b4}
+  {\path{doi:10.1088/1742-5468/aab1b4}}.
+
+\bibitem{abrams2003}
+D.~M. Abrams, S.~H. Strogatz, Linguistics: Modelling the dynamics of language
+  death, Nature 424 (2003) 900.
+
+\bibitem{vazquez2010}
+F.~V{\'a}zquez, X.~Castell{\'o}, M.~S. Miguel, Agent based models of language
+  competition : Macroscopic descriptions and order-disorder transitions, 2010.
+
+\bibitem{sirbu2017}
+A.~S{\'i}rbu, V.~Loreto, V.~Servedio, F.~Tria, Opinion Dynamics: Models,
+  Extensions and External Effects, 2017, pp. 363--401.
+\newblock \href {http://dx.doi.org/10.1007/978-3-319-25658-0_17}
+  {\path{doi:10.1007/978-3-319-25658-0_17}}.
+
+\bibitem{hoffman2011}
+R.~Hoffman, J.~Kagel, D.~Levin, Simultaneous versus sequential information
+  processing*, Economics Letters 112 (2011) 16--18.
+\newblock \href {http://dx.doi.org/10.1016/j.econlet.2011.03.006}
+  {\path{doi:10.1016/j.econlet.2011.03.006}}.
+
+\bibitem{dietrich2004}
+D.~Stauffer, \href{https://doi.org/10.1080/00222500490278531}{Difficulty for
+  consensus in simultaneous opinion formation of sznajd model}, The Journal of
+  Mathematical Sociology 28~(1) (2004) 25--33.
+\newblock \href
+  {http://arxiv.org/abs/https://doi.org/10.1080/00222500490278531}
+  {\path{arXiv:https://doi.org/10.1080/00222500490278531}}, \href
+  {http://dx.doi.org/10.1080/00222500490278531}
+  {\path{doi:10.1080/00222500490278531}}.
+\newline\urlprefix\url{https://doi.org/10.1080/00222500490278531}
+
+\bibitem{barabasi1999}
+A.-L. Barab{\'a}si, R.~Albert,
+  \href{https://science.sciencemag.org/content/286/5439/509}{Emergence of
+  scaling in random networks}, Science 286~(5439) (1999) 509--512.
+\newblock \href
+  {http://arxiv.org/abs/https://science.sciencemag.org/content/286/5439/509.full.pdf}
+  {\path{arXiv:https://science.sciencemag.org/content/286/5439/509.full.pdf}},
+  \href {http://dx.doi.org/10.1126/science.286.5439.509}
+  {\path{doi:10.1126/science.286.5439.509}}.
+\newline\urlprefix\url{https://science.sciencemag.org/content/286/5439/509}
+
+\end{thebibliography}

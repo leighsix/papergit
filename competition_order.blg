@@ -1,0 +1,69 @@
+This is BibTeX, Version 0.99d (TeX Live 2018/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: competition_order.aux
+The style file: elsarticle-num.bst
+Database file #1: mybibfile.bib
+I was expecting a `,' or a `}'---line 51 of file mybibfile.bib
+ :  
+ :  collection={Cambridge Studies in Advanced Mathematics}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "kimsangwoo2012" isn't style-file defined
+--line 149 of file mybibfile.bib
+Warning--entry type for "namkhanhvu2017" isn't style-file defined
+--line 435 of file mybibfile.bib
+Warning--empty booktitle in tomasini2015
+Warning--empty pages in tomasini2015
+Warning--empty booktitle in newman2010
+Warning--empty pages in newman2010
+Warning--empty booktitle in fangwu2004
+Warning--empty pages in fangwu2004
+Warning--empty booktitle in hua2014
+Warning--empty booktitle in shenyu2018
+Warning--empty pages in alvarez2016
+Warning--empty booktitle in vazquez2010
+Warning--empty pages in vazquez2010
+Warning--empty publisher in sirbu2017
+Warning--empty chapter and pages in sirbu2017
+You've used 32 entries,
+            2937 wiz_defined-function locations,
+            877 strings with 11004 characters,
+and the built_in function-call counts, 9635 in all, are:
+= -- 887
+> -- 317
+< -- 3
++ -- 127
+- -- 95
+* -- 695
+:= -- 1315
+add.period$ -- 47
+call.type$ -- 32
+change.case$ -- 30
+chr.to.int$ -- 0
+cite$ -- 45
+duplicate$ -- 302
+empty$ -- 1112
+format.name$ -- 117
+if$ -- 2525
+int.to.chr$ -- 0
+int.to.str$ -- 32
+missing$ -- 32
+newline$ -- 127
+num.names$ -- 32
+pop$ -- 211
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 637
+stack$ -- 0
+substring$ -- 419
+swap$ -- 94
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 13
+while$ -- 54
+width$ -- 34
+write$ -- 297
+(There was 1 error message)

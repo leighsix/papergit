@@ -1,0 +1,143 @@
+\documentclass[review]{elsarticle}
+
+\usepackage{lineno,hyperref}
+\modulolinenumbers[5]
+
+\journal{Journal of \LaTeX\ Templates}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Elsevier bibliography styles
+%%%%%%%%%%%%%%%%%%%%%%%
+%% To change the style, put a % in front of the second line of the current style and
+%% remove the % from the second line of the style you would like to use.
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Numbered
+%\bibliographystyle{model1-num-names}
+
+%% Numbered without titles
+%\bibliographystyle{model1a-num-names}
+
+%% Harvard
+%\bibliographystyle{model2-names.bst}\biboptions{authoryear}
+
+%% Vancouver numbered
+%\usepackage{numcompress}\bibliographystyle{model3-num-names}
+
+%% Vancouver name/year
+%\usepackage{numcompress}\bibliographystyle{model4-names}\biboptions{authoryear}
+
+%% APA style
+%\bibliographystyle{model5-names}\biboptions{authoryear}
+
+%% AMA style
+%\usepackage{numcompress}\bibliographystyle{model6-num-names}
+
+%% `Elsevier LaTeX' style
+\bibliographystyle{elsarticle-num}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Competition of Two layer Networks\tnoteref{mytitlenote}}
+\tnotetext[mytitlenote]{Fully documented templates are available in the elsarticle package on \href{http://www.ctan.org/tex-archive/macros/latex/contrib/elsarticle}{CTAN}.}
+
+%% Group authors per affiliation:
+\author{Elsevier\fnref{myfootnote}}
+\address{Radarweg 29, Amsterdam}
+\fntext[myfootnote]{Since 1880.}
+
+%% or include affiliations in footnotes:
+\author[mymainaddress,mysecondaryaddress]{Elsevier Inc}
+\ead[url]{www.elsevier.com}
+
+\author[mysecondaryaddress]{Global Customer Service\corref{mycorrespondingauthor}}
+\cortext[mycorrespondingauthor]{Corresponding author}
+\ead{support@elsevier.com}
+
+\address[mymainaddress]{1600 John F Kennedy Boulevard, Philadelphia}
+\address[mysecondaryaddress]{360 Park Avenue South, New York}
+
+\begin{abstract}
+Social conflict usually can be investigated based on the competition of two-layers network. In this paper, a competition model is studied on interconnected networks with two-layer opinions, where the first layer is opinion formation and the second layer is decision making. Starting with a polarized competition case where layer A has all the positive opinion and layer B has all the negative opinion, competition simulations are considered with different network structures. With Monte Carlos simulations, different structural models are compared with average state and consensus ratio, which shows that both internal and external links play a vital role for consensus. Especially, increasing the number of external and internal links on one side layer make it easy to reach consensus. However, too many internal edges on each layer make it hard to reach consensus due to inner conflict.
+\end{abstract}
+
+\begin{keyword}
+Interconnected Networks \sep Opinion Dynamics\sep Decision Making
+\MSC[2010] 00-01\sep  99-00
+\end{keyword}
+
+\end{frontmatter}
+
+\linenumbers
+
+\section{Introduction}
+In various situations ranging from voting to adoption of new policies, it is widely recognized that opinion formation and decision making formation have mutual interaction as interconnected networks\cite{bianconi2018,domenico2013,tomasini2015, kimsangwoo2012,newman2010,boccaletti2014,mikko2013,huberman2004}. Many researchers have devised many techniques for modeling and analyzing competition on opinion dynamics\cite{amato2017,quattrociocchi2014,haibo2017, hua2014}, voter model\cite{redner2017}, game theory\cite{smyrnakis2019} and many more\cite{danziger2019,namkhanhvu2017,laguna2004,masuda2015,zuev2012, shenyu2018, zhou2018}.  
+
+For competition of interconnected networks, many researches have been performed in the various networks, for example the dissemination of computer viruses, messages, opinions, memes, diseases and rumors\cite{hua2014,shenyu2018, zhou2018, alvarez2016,gomez2015,diep2017,rocca2014,velasquez2018}. Opinion dynamics on two-layer or multi-layer networks are investigated, based on \textit{Abrams-Strogatz(AS)} model\cite{abrams2003,vazquez2010} and $M$ model\cite{rocca2014}. Existing research mainly focused on what conditions all agents reach a consensus or dissent, which have shown that the system can make positive consensus, negative consensus or coexistence under certain range of volatility, reinforcement, or prestige. Also, the thresholds or critical points for transition are found to explain and analyze the social phenomena in real world such as the legislation, election result, and social network\cite{alvarez2016, amato2017, diep2017}. In \cite{gomez2015}, it is shown that the transition from localized to mixed status occurs through a cascade from poorly connected nodes in the layers to the highly connected ones. In addition, the main features, such as transition and cascade, found in Monte Carlo simulation are exactly characterized by the mean-field theory and magnetization\cite{alvarez2016, diep2017, amato2017, gomez2015}.   
+
+In this paper, we study the competitions on two interconnected networks with various structures, and investigate which structure has more probability to perform consensus results. With Monte Carlos simulations, consensus of the two-layers network would be compared with different structural models, which shows the vital influence of internal and external links. Specially, when the external links in decision making layer is more than the opinion layer, the tendency to make consensus on both layers is stronger. The more the internal links in one layer is, the stronger the tendency to keep and maintain the state of the layer. However, when each layer has lots of internal links individually, it is hard to make consensus due to inner conflict.    
+
+The paper is organized as follows. In section 2, competition dynamics of interconnected network, that is applied to each layer, is described. In section 3, the simulation results of different structural networks are presented. Lastly, in section 4, the simulation results are summarized.
+
+
+\paragraph{Usage} Once the package is properly installed, you can use the document class \emph{elsarticle} to create a manuscript. Please make sure that your manuscript follows the guidelines in the Guide for Authors of the relevant journal. It is not necessary to typeset your manuscript in exactly the same way as an article, unless you are submitting to a camera-ready copy (CRC) journal.
+
+\paragraph{Functionality} The Elsevier article class is based on the standard article class and supports almost all of the functionality of that class. In addition, it features commands and options to format the
+\begin{itemize}
+\item document style
+\item baselineskip
+\item front matter
+\item keywords and MSC codes
+\item theorems, definitions and proofs
+\item lables of enumerations
+\item citation style and labeling.
+\end{itemize}
+
+\section{Front matter}
+
+The author names and affiliations could be formatted in two ways:
+\begin{enumerate}[(1)]
+\item Group the authors per affiliation.
+\item Use footnotes to indicate the affiliations.
+\end{enumerate}
+See the front matter of this document for examples. You are recommended to conform your choice to the journal you are submitting to.
+
+\section{Modeling}
+The model consists of two layers, and each layer has different dynamics. For layer A, the node change its states according to $M$ model as introduced in \cite{rocca2014}. Here, we choose $M=2$, that each node has four states $(-2, -1, +1, +2)$. For each link $(k, j)$ belong to layer A,  the dynamics are designed as follows:
+
+The sign of $S^A$ represents its opinion orientation and its absolute value $|S^A|$ measures the intensity of its opinion. So, $|S^A|=2$ represents to a positive or a negative extremist, while  $|S^A|=1$ correspond to a moderate opinion of each side. In case of internal link $(k, j)$ belong to layer A, when the nodes have the same orientation$(S_kS_j>0)$, if the states of nodes are moderate, then they become extreme$(S_k=\pm1 \rightarrow \pm2, S_j= \pm1 \rightarrow \pm2)$ with probability $p$. If they are already extreme, they remain extreme$(S_k=\pm2 \rightarrow \pm2, S_j= \pm2 \rightarrow \pm2)$. On the other hand, when the nodes have opposite orientations$(S_kS_j<0)$, if they are extreme, the states of nodes become moderate$(S_k=\pm2 \rightarrow \pm1, S_j= \pm2 \rightarrow \pm1)$ with probability $q$. If they are already moderate, they switch orientations individually$(S_k=\pm1 \rightarrow \mp1, S_j= \pm1 \rightarrow \mp1)$.  In case of interaction between node in layer A and node in layer B, node in layer A follows opinion dynamics formula, but the state of node in layer B does not change. In other words, the state of layer B affects layer A, but layer A dynamics does not affect the state of node in layer B. For example, one of the layer A node, $S_k = +2$ is connected with  $S_j = -1$ node of layer B. Here, $S_k$ will change into $S_k = +1$ with $prob.q$. But $S_j$ will not change, which indicates that the states of layer B will influence the states of layer A.
+
+The dynamics of layer B follows the decision-making dynamics as introduced in \cite{abrams2003, vazquez2010}. The state of node i in layer B can be $+1$ and $-1$, and it updates according to
+
+\begin{equation}
+{P_B}({S_i} \rightarrow - {S_i}) = {\left( {\frac{{{n^{ - {S_i}}}}}{{{i_i} + {e_i}}}} \right)^\beta },
+\end{equation}
+
+where $i_i$ is the number of internal edges and $e_i$ is the number of external edges. $n^{-S_i}$ is the number of neighbors of i with opposite state $-S_i$. $\beta(\geq 0)$ is the volatility exponent that measures how prone a node change its state. If $\beta \simeq 0$, a node is very likely to change its state. On the other hand, if $\beta \gg 1$, a node is unlikely to change its state. Also, this formula shows that the more the number of nodes connected with the opposite state is, the easier the nodes are to change into the opposite state.\\
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=\hsize]{FIG1.png}
+	\caption{Competition of Interconnected Network}
+	\label{Fig1}
+\end{figure}
+
+
+
+
+
+
+
+
+
+There are various bibliography styles available. You can select the style of your choice in the preamble of this document. These styles are Elsevier styles based on standard styles like Harvard and Vancouver. Please use Bib\TeX\ to generate your bibliography and include DOIs whenever available.
+
+Here are two sample references: \cite{Feynman1963118,Dirac1953888}.
+
+\section*{References}
+
+\bibliography{mybibfile}
+
+\end{document}

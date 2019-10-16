@@ -1,0 +1,88 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{bianconi2018}
+G.~Bianconi, Multilayer Networks: Structure and Function, Oxford University
+  Press, 2018.
+
+\bibitem{domenico2013}
+M.~D. Domenico, A.~Sol{\'e}-Ribalta, E.~Cozzo, M.~Kivel{\"a}, Y.~Moreno, M.~A.
+  Porter, S.~G{\'o}mez, A.~Arenas, Mathematical formulation of multilayer
+  networks, 2013.
+
+\bibitem{tomasini2015}
+M.~Tomasini, An introduction to multilayer networks, 2015.
+
+\bibitem{kimsangwoo2012}
+K.~Sangwoo, Structure and dynamics of complex networks (2012).
+
+\bibitem{newman2010}
+M.~J. Newman, Networks: An introduction, 2010.
+
+\bibitem{boccaletti2014}
+S.~Boccaletti, G.~Bianconi, R.~Criado, C.~I.~D. Genio,
+  J.~G{\'o}mez-Garde{\~n}es, M.~Romance, I.~Sendi{\~n}a-Nadal, Z.~Wang,
+  M.~Zanin, The structure and dynamics of multilayer networks, CoRR
+  abs/1407.0742.
+
+\bibitem{danziger2019}
+M.~M. Danziger, I.~Bonamassa, S.~Boccaletti, Havlin, Shlomo, Dynamic
+  interdependence and competition in multilayer networks, Nature Physics 15
+  (2019) 178--185.
+
+\bibitem{namkhanhvu2017}
+N.~K. Vu, Robustness of interconnected complex networks with directed
+  dependency (2017).
+
+\bibitem{laguna2004}
+M.~F.~L. et~al, The dynamics of opinion in hierarchical organizations, Physica
+  A: Statistical Mechanics and its Applications 351 (2005) 580--592.
+
+\bibitem{zuev2012}
+Z.~A. S, Fedyanin, Models of opinion control for agents in social networks,
+  Automation and Remote Control 73 (2012) 1753–1764.
+
+\bibitem{alvarez2016}
+L.~G. Alvarez-Zuzek, C.~E.~L. Rocca, F.~Vazquez, L.~A. Braunstein, Interacting
+  social processes on interconnected networks, in: PloS one, 2016.
+
+\bibitem{gomez2015}
+J.~G{\'o}mez-Garde{\~n}es, M.~D. Domenico, G.~Guti{\'e}rrez, A.~Arenas,
+  S.~G{\'o}mez, Layer-layer competition in multiplex complex networks,
+  Philosophical transactions. Series A, Mathematical, physical, and engineering
+  sciences 373 2056.
+
+\bibitem{diep2017}
+H.~T. Diep(LPTM), M.~Kaufman, S.~Kaufman, Dynamics of two-group conflicts: A
+  statistical physics model, Physica A: Statistical Mechanics and its
+  Applications, Elsevier 469 (2017) 183 -- 199.
+
+\bibitem{rocca2014}
+C.~E.~L. Rocca, L.~A. Braunstein, F.~Vazquez, The influence of persuasion in
+  opinion formation and polarization, CoRR abs/1403.3011.
+
+\bibitem{abrams2003}
+D.~M. Abrams, S.~H. Strogatz, Linguistics: Modelling the dynamics of language
+  death, Nature 424 (2003) 900.
+
+\bibitem{vazquez2010}
+F.~V{\'a}zquez, X.~Castell{\'o}, M.~S. Miguel, Agent based models of language
+  competition : Macroscopic descriptions and order-disorder transitions, 2010.
+
+\bibitem{Feynman1963118}
+R.~Feynman, F.~{Vernon Jr.}, The theory of a general quantum system interacting
+  with a linear dissipative system, Annals of Physics 24 (1963) 118--173.
+\newblock \href {http://dx.doi.org/10.1016/0003-4916(63)90068-X}
+  {\path{doi:10.1016/0003-4916(63)90068-X}}.
+
+\bibitem{Dirac1953888}
+P.~Dirac, The lorentz transformation and absolute time, Physica 19~(1-–12)
+  (1953) 888--896.
+\newblock \href {http://dx.doi.org/10.1016/S0031-8914(53)80099-6}
+  {\path{doi:10.1016/S0031-8914(53)80099-6}}.
+
+\end{thebibliography}
