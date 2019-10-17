@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.2)  16 OCT 2019 14:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.2)  16 OCT 2019 16:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -996,15 +996,15 @@ full . pdf$[]\OT1/cmr/m/n/10 ,
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 381.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 380.
  [25]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 381.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 380.
  (./competition_order.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 381.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 381.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 380.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 380.
 Package rerunfilecheck Info: File `competition_order.out' has not changed.
 (rerunfilecheck)             Checksum: BB1639C89CF189458B3CB387105FE427;657.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 381.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 380.
  ) 
 Here is how much of TeX's memory you used:
  19527 strings out of 492616
@@ -1013,7 +1013,7 @@ Here is how much of TeX's memory you used:
  23111 multiletter control sequences out of 15000+600000
  543724 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,17n,63p,1726b,576s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,17n,63p,1733b,576s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/usr/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:
 /usr/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/usr/
 texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/usr/texli
@@ -1033,7 +1033,7 @@ ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb><c:/usr/texlive/20
 18/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/usr/texlive/2018/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/usr/texlive/2018/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on competition_order.pdf (25 pages, 3777415 bytes).
+Output written on competition_order.pdf (25 pages, 3777035 bytes).
 PDF statistics:
  482 PDF objects out of 1000 (max. 8388607)
  407 compressed objects within 5 object streams
